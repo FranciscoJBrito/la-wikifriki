@@ -22,7 +22,18 @@ export default defineConfig({
         },
         {
           label: "Diseño y arquitectura de software",
-          autogenerate: { directory: "/architecture" }
+          items: [
+            { label: "Introducción", link: "/architecture/introduccion" },
+            { label: "Código limpio", link: "/architecture/clean-code" },
+            { label: "Paradigmas de programación", link: "/architecture/programming-paradigms" },
+            { label: "Programación orientada a objetos", link: "/architecture/poo" },
+            { label: "Principios de diseño", link: "/architecture/principles-design" },
+            { label: "Patrones de diseño", link: "/architecture/design-patterns" },
+            { label: "Principios arquitectónicos", link: "/architecture/arch-principles" },
+            { label: "Estilos arquitectónicos", link: "/architecture/arch-styles" },
+            { label: "Patrones arquitectónicos", link: "/architecture/arch-patterns" },
+          ],
+          /* autogenerate: { directory: "/architecture" } */
         },
         {
           label: "Diseño de sistemas",
