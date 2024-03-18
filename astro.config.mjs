@@ -5,6 +5,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Francisco Brito",
+      customCss: [
+        './src/styles/custom.css',
+      ],
+      defaultLocale: 'es',
       social: {
         github: 'https://github.com/FranciscoJBrito/my-documentation',
         linkedin: 'https://www.linkedin.com/in/francisco-brito-b4657420a/'
@@ -13,7 +17,7 @@ export default defineConfig({
         {
           label: "Comenzando",
           items: [
-            { label: "Getting started", link: "/getting-started" }
+            { label: "Bienvenidos", link: "/getting-started" }
           ],
         },
         {
@@ -27,9 +31,7 @@ export default defineConfig({
             { label: "Algoritmos de clasificación", link: "/algorithms/classification-algorithms" },
             { label: "Algoritmos de búsqueda", link: "/algorithms/search-algorithms" },
             { label: "Árbol de estructura de datos", link: "/algorithms/data-structure-tree" },
-
           ],
-          autogenerate: { directory: "/algorithms" }
         },
         {
           label: "Diseño y arquitectura de software",
@@ -47,7 +49,23 @@ export default defineConfig({
         },
         {
           label: "Diseño de sistemas",
-          autogenerate: { directory: "/system-design" }
+          items: [
+            { label: "Introducción", link: "/system-design/introduccion" },
+            { label: "Clustering", link: "/system-design/clustering" },
+            { label: "Caching", link: "/system-design/caching" },
+            { label: "CDN", link: "/system-design/cdn" },
+            { label: "Proxy", link: "/system-design/proxy" },
+            { label: "CAP Theorem", link: "/system-design/cap-theorem" },
+            { label: "Queues", link: "/system-design/queues" },
+            { label: "REST", link: "/system-design/rest" },
+            { label: "GraphQL", link: "/system-design/graphql" },
+            { label: "gRPC", link: "/system-design/grpc" },
+            { label: "Cloud design patterns", link: "/system-design/cloud-design-patterns" },
+            { label: "Long Polling", link: "/system-design/long-polling" },
+            { label: "Short Polling", link: "/system-design/short-polling" },
+            { label: "Web Sockets", link: "/system-design/web-sockets" },
+            { label: "SSE", link: "/system-design/sse" }          
+          ],
         },
         {
           label: "Redes",
