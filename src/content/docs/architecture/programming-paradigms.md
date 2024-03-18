@@ -1,0 +1,3 @@
+---
+title: 'Paradigmas de programación'
+---

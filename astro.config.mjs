@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My delightful docs site",
+      title: "Francisco Brito",
       social: {
         github: 'https://github.com/FranciscoJBrito/my-documentation',
         linkedin: 'https://www.linkedin.com/in/francisco-brito-b4657420a/'

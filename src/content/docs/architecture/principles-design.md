@@ -1,0 +1,3 @@
+---
+title: 'Principio de diseño'
+---
