@@ -18,6 +18,17 @@ export default defineConfig({
         },
         {
           label: "Algoritmos y estructuras de datos",
+          items: [
+            { label: "Introducción", link: "/algorithms/introduccion" },
+            { label: "Fundamentos de la programación", link: "/algorithms/programming-fundamentals" },
+            { label: "Estructura de datos", link: "/algorithms/data-structure" },
+            { label: "Estructura de datos básica", link: "/algorithms/basic-data-structure" },
+            { label: "Complejidad algorítmica", link: "/algorithms/algorithmic-complexity" },
+            { label: "Algoritmos de clasificación", link: "/algorithms/classification-algorithms" },
+            { label: "Algoritmos de búsqueda", link: "/algorithms/search-algorithms" },
+            { label: "Árbol de estructura de datos", link: "/algorithms/data-structure-tree" },
+
+          ],
           autogenerate: { directory: "/algorithms" }
         },
         {
@@ -33,7 +44,6 @@ export default defineConfig({
             { label: "Estilos arquitectónicos", link: "/architecture/arch-styles" },
             { label: "Patrones arquitectónicos", link: "/architecture/arch-patterns" },
           ],
-          /* autogenerate: { directory: "/architecture" } */
         },
         {
           label: "Diseño de sistemas",
