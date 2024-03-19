@@ -69,7 +69,27 @@ export default defineConfig({
         },
         {
           label: "Redes",
-          autogenerate: { directory: "/networking" }
+          items: [
+            { label: "Introducción", link: "/networking/introduccion" },
+            { label: "Modelo OSI", link: "/networking/osi-model" },
+            { label: "TCP/IP", link: "/networking/tcp-ip" },
+            { label: "DNS", link: "/networking/dns" },
+            { label: "HTTP", link: "/networking/http" },
+            { label: "HTTPS", link: "/networking/https" },
+            { label: "FTP", link: "/networking/ftp" },
+            { label: "SMTP", link: "/networking/smtp" },
+            { label: "POP3", link: "/networking/pop3" },
+            { label: "IMAP", link: "/networking/imap" },
+            { label: "SSH", link: "/networking/ssh" },
+            { label: "VPN", link: "/networking/vpn" },
+            { label: "Firewall", link: "/networking/firewall" },
+            { label: "Load Balancer", link: "/networking/load-balancer" },
+            { label: "Reverse Proxy", link: "/networking/reverse-proxy" },
+            { label: "Forward Proxy", link: "/networking/forward-proxy" },
+            { label: "Gateway", link: "/networking/gateway" },
+            { label: "Router", link: "/networking/router" },
+            { label: "Switch", link: "/networking/switch" },
+          ],
         },
         {
           label: "DevOps",
