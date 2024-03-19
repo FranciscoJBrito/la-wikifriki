@@ -116,13 +116,17 @@ export default defineConfig({
             { label: "Infrastructure monitoring", link: "/devops/infrastructure-monitoring" },
             { label: "Application monitoring", link: "/devops/application-monitoring" },
             { label: "Orquestación de containers", link: "/devops/containers-orchestration" },
-
           ],
-          autogenerate: { directory: "/devops" }
         },
         {
           label: "Lenguajes de programación",
-          autogenerate: { directory: "/language" }
+          items: [
+            { label: "Introducción", link: "/language/introduccion" },
+            { label: "JavaScript", link: "/language/javascript" },
+            { label: "Ruby", link: "/language/ruby" },
+            { label: "TypeScript", link: "/language/typescript" },
+            { label: "Python", link: "/language/python" },
+          ]
         },
         {
           label: "Frameworks",
