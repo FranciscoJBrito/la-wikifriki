@@ -93,6 +93,31 @@ export default defineConfig({
         },
         {
           label: "DevOps",
+          items: [
+            { label: "Introducción", link: "/devops/introduccion" },
+            { label: "Sistemas operativos", link: "/devops/operative-systems" },
+            { label: "Uso de la terminal", link: "/devops/terminal" },
+            { label: "Sistema de control de versiones", link: "/devops/version-control-system" },
+            { label: "VPS Hosting", link: "/devops/vps" },
+            { label: "Como configurar...?", items: [
+              { label: "Proxy reverso", link: "/devops/reverse-proxy" },
+              { label: "Forward Proxy (Proxy de reenvió)", link: "/devops/forward-proxy" },
+              { label: "Firewall (Cortafuego)", link: "/devops/firewall" },
+              { label: "Balanceador de carga (Load balancer )", link: "/devops/load-balancer" },
+              { label: "Caching server", link: "/devops/caching" },
+            ]},
+            { label: "Contenedores", link: "/devops/containers" },
+            { label: "Proveedores en la nube", link: "/devops/cloud-providers" },
+            { label: "Redes, Seguridad y protocolos", link: "/devops/network-security-protocols" },
+            { label: "Serverless", link: "/devops/serverless" },
+            { label: "Infrastructure provisioning ", link: "/devops/infrastructure-provisioning" },
+            { label: "Configuration management", link: "/devops/configuration-management" },
+            { label: "CI/CD", link: "/devops/ci-cd" },
+            { label: "Infrastructure monitoring", link: "/devops/infrastructure-monitoring" },
+            { label: "Application monitoring", link: "/devops/application-monitoring" },
+            { label: "Orquestación de containers", link: "/devops/containers-orchestration" },
+
+          ],
           autogenerate: { directory: "/devops" }
         },
         {
