@@ -5,9 +5,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: '',
+      favicon: './src/assets/book.svg',
       logo: {
-        light: './public/logo-light.svg',
-        dark: './public/logo-dark.svg',
+        light: './src/assets/logo-light.svg',
+        dark: './src/assets/logo-dark.svg',
       },
       customCss: [
         './src/styles/custom.css',
