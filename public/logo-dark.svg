@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 527.93 123.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        font-family: AppleColorEmoji, 'Apple Color Emoji';
+        font-size: 110px;
+      }
+
+      .cls-2 {
+        font-family: HelveticaNeue-Medium, 'Helvetica Neue';
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-family: HelveticaNeue-Bold, 'Helvetica Neue';
+        font-size: 72px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <text class="cls-3" transform="translate(146.98 85.74)"><tspan x="0" y="0">La Wikifriki</tspan></text>
+      <text class="cls-1" transform="translate(0 110)"><tspan x="0" y="0">🤓</tspan></text>
+      <text class="cls-2" transform="translate(152.6 116.67)"><tspan x="0" y="0">by Francisco Brito</tspan></text>
+    </g>
+  </g>
+</svg>
