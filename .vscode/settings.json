@@ -2,6 +2,15 @@
       "cSpell.words": [
             "linkedin",
             "Monitoreo",
+            "pseudocodigo",
+            "Pseudocódigos",
             "Wikifriki"
+      ],
+      "cSpell.enableFiletypes": [
+            "astro",
+            "markdown_latex_combined",
+            "mdx",
+            "objective-c",
+            "ruby"
       ]
 }

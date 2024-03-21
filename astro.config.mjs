@@ -6,6 +6,12 @@ export default defineConfig({
     starlight({
       title: '',
       favicon: './src/assets/book.svg',
+      locales: {
+        root: {
+          label: 'Español',
+          lang: 'es-AR',
+        }
+      },
       logo: {
         light: './src/assets/logo-light.svg',
         dark: './src/assets/logo-dark.svg',
@@ -13,10 +19,9 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css',
       ],
-      defaultLocale: 'es',
       social: {
         github: 'https://github.com/FranciscoJBrito/my-documentation',
-        linkedin: 'https://www.linkedin.com/in/francisco-brito-b4657420a/'
+        linkedin: 'https://www.linkedin.com/in/francisco-javier-brito-b4657420a/'
       },
       sidebar: [
         {
@@ -29,7 +34,7 @@ export default defineConfig({
           label: "Algoritmos y estructuras de datos",
           items: [
             { label: "Introducción", link: "/algorithms/introduccion" },
-            { label: "Fundamentos de la programación", link: "/algorithms/programming-fundamentals" },
+            { label: "Estructuras de control y funciones", link: "/algorithms/control-structures-functions" },
             { label: "Estructura de datos", link: "/algorithms/data-structure" },
             { label: "Estructura de datos básica", link: "/algorithms/basic-data-structure" },
             { label: "Complejidad algorítmica", link: "/algorithms/algorithmic-complexity" },
