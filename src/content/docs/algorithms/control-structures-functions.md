@@ -134,3 +134,24 @@ Como ejemplo de utilización, se presenta el siguiente pseudo-código con la sen
 ---
 
 ## Funciones
+
+En cualquier lenguaje de programación, existen las __funciones__. Son trozos de código que se escriben separadamente y que realizan cálculos o tareas específicas. Todos los lenguajes de programación tienen funciones incorporadas o intrínsecas, es decir, funciones que realizan cálculos o tareas de uso habitual que han sido ya programados y están disponibles para el usuario. Pero, además, todos los lenguajes tienen la posibilidad de que el usuario defina sus propias funciones, que reciben el nombre de funciones externas.
+La forma de definir las funciones depende del lenguaje de programación. En Matlab, las funciones deben tener la estructura siguiente:
+
+![Función](../../../assets/funcion.png)
+
+Aquí, function es una palabra reservada: no se cambia y debe estar presente. nombre es el nombre que se quiere dar a la función, para identificarla. Los argumentos de entrada y los argumentos de salida son nombre de variable que hacen el papel de las variables mudas en la definición de una función matemática: símbolos para describir la función. En programación reciben, también, el nombre de variables mudas (de entrada o de salida)
+
+Los argumentos de entrada y de salida, cuando hay varios, se separan por comas. Puede no haber argumentos de entrada, en cuyo caso, no es necesario poner los paréntesis. Puede, asimismo, no haber argumentos de salida, en cuyo caso no es necesario poner los corchetes ni el signo igual. A continuación de la instrucción de declaración (function), se escribe el código para llevar a cabo los cálculos o tareas correspondientes.
+
+La ejecución de una función se termina cuando se terminan sus instrucciones. Cuando ello sucede el control de ejecución vuelve al punto desde el que se invocó a la función: la linea de comandos, un script o bien otra función.
+A veces es necesario terminar la ejecución de una function antes de que se terminen sus instrucciones: ello se hace mediante la sentencia `RETURN`. Esta instrucción, en cualquier parte de una función o de un script provoca el inmediato abandono del mismo.
+A modo de ejemplo de uso de una función, véase el siguiente, que muestra el código de una Matlab función (M-función) que calcula el valor de una función matemática.
+
+![M-función](../../../assets/m-function.png)
+
+Las variables definidas dentro de una función son __variables locales__, en el sentido de que son inaccesibles desde “fuera” de esta función. Se puede decir que pertenecen al espacio de trabajo propio de la función y no son vistas desde otros espacios de trabajo. Por ejemplo, si se utiliza esta función desde la línea de comandos de Matlab, y se tiene, en el espacio de trabajo de Matlab, una variable de nombre, por ejemplo, `w`, esta variable y la `w` de la función son distintas: se refieren a una posiciones diferentes en memoria.
+
+---
+
+[📚 Bibliografía - Universidad de Sevilla](https://departamento.us.es/edan/php/asig/LICFIS/LFIPC/Tema5FISPC0809.pdf)
