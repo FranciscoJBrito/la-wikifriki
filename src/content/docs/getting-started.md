@@ -1,13 +1,13 @@
 ---
 title: 👋🏻 Bienvenidos
 ---
-Hola querido lector, espero que te encuentres bien. Me presento, mi nombre es Francisco Brito actualmente tengo 23 años y soy un apasionado por la tecnología. Llevo seis años programando principalmente como un pasatiempo, pero la realidad es que los últimos tres años me he tomado esto con mas seriedad. Mi trayectoria laboral evidentemente no es tan amplia por mi edad, pero hasta el momento he trabajado durante dos años como CTO en una empresa de Marketing inmobiliario Mexicana. Actualmente me encuentro en búsqueda de mi segunda oportunidad laboral, lo cual me ha permitido vivir de cerca cuál es el panorama actual en este sector. Siendo honesto, mas que desanimarme este aumento en los estándares mínimos para ser un buen candidato como desarrollador de software, me hizo mucha ilusión y lo tomo como un reto personal.
+Hola querido lector, espero que te encuentres bien. Me presento, mi nombre es Francisco Brito actualmente tengo 23 años y soy un apasionado por la tecnología. Llevo seis años programando principalmente como un pasatiempo, pero la realidad es que los últimos tres años me he tomado esto con mas seriedad. Mi trayectoria laboral evidentemente no es tan amplia por mi edad, pero hasta el momento he trabajado durante dos años como CTO en una pequeña Startup de Marketing inmobiliario Mexicana. Actualmente me encuentro en búsqueda de mi segunda oportunidad laboral, lo cual me ha permitido vivir de cerca cuál es el panorama actual en este sector. Siendo honesto, mas que desanimarme por este aumento en los estándares mínimos para ser un buen candidato como desarrollador de software, me hizo mucha ilusión y lo tomo como un reto personal.
 
 La rápida y constante evolución en el sector tecnológico, te empuja a convertirte en un aprendiz constante, lo cual vuelve cada vez más complejo el laberinto del aprendizaje autodidacta para esta profesión.
 
 ## Permíteme ayudarte
 
-El propósito de esta documentación es registrar mis conocimientos tanto teóricos como técnicos, para ayudar a otros desarrolladores de software es su camino. Principalmente porque, en lo personal, me ha costado tener un camino definido en cuanto a qué aprender y en qué orden hacerlo. Mi aprendizaje, hasta el momento, a sido de manera autodidacta y por esto entiendo lo frustrante y agotador que puede llegar a ser tener que transitar la curva tan pronunciada de estos aprendizajes. Por este motivo es que escribo esta documentación, para que otros desarrolladores tengan un camino mas claro y puedan mejorar.
+El propósito de esta documentación es registrar mis conocimientos tanto teóricos como técnicos, para ayudar a otros desarrolladores de software es su camino. Principalmente porque, en lo personal, me ha costado tener un camino definido en cuanto a qué aprender y en qué orden hacerlo. Mi aprendizaje, hasta el momento, ha sido de manera autodidacta y por esto entiendo lo frustrante y agotador que puede llegar a ser tener que transitar la curva tan pronunciada de estos aprendizajes. Por este motivo es que escribo esta documentación, para que otros desarrolladores tengan un camino mas claro y puedan mejorar.
 
 ## El marketing vs la realidad
 
@@ -20,7 +20,7 @@ Cuando inicié en el mundo de la programación no solía darle mucha importancia
 ## El laberinto de la información
 
 ¿Por qué escribo código? ¿El código es el fin último? ¿Qué propósito tiene el código?
-Estas preguntas, básicas para algunos, me llevaron a sumergirme en un aprendizaje mas profundo, en busca de un por qué... con el paso del tiempo pude responderme alguna de estas preguntas, pero a su vez obtuvo muchas otras.
+Estas preguntas, básicas para algunos, me llevaron a sumergirme en un aprendizaje mas profundo, en busca de un por qué... con el paso del tiempo pude responderme alguna de estas preguntas, pero a su vez obtuve muchas otras.
 En mi camino aprendiendo, muchas veces me sentí perdido entre tanta información, como cuando armas un rompecabezas muy grande, y encajas primero las piezas mas sencillas, como las esquinas o los bordes y luego continuas con las piezas que coinciden con el patron de la anterior y haces esto una y otra vez sin saber cual es la imagen final del rompecabezas, hasta que en cierto punto, no sabes cuando, puedes empezar a dilucidar la imagen completa. Esto mismo me paso mientras aprendía distintas tecnologías, luego de un largo camino, llegue a un punto en el que puede entender cual era el funcionamiento de cada una, su por qué y como se relacionaban unas con otras.
 
 ## La pasión es la formula secreta
@@ -38,4 +38,4 @@ Una frase muy cierta... si de verdad te importa lo que estas haciendo, vas a dar
 
 Esta documentación te servirá como teoría, y te proporcionará un camino mas definido en cuanto a el orden de aprendizaje, ya que está ordenada desde lo mas básico a lo mas avanzado.
 
-De verdad espero que esto te ayude a seguir creciendo y mejorando como desarrollador, me hace mucha ilusión poder compartirla contigo.
+De verdad espero que te ayude a seguir creciendo y mejorando como desarrollador, me hace mucha ilusión poder compartirlo contigo.
